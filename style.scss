@@ -352,6 +352,16 @@
             .work-dreamshare__text {
                 line-height: 20px;
             }
+            .flex {
+                padding: 0px;
+            }
+            .work-dreamshare__item {
+                min-height: 240px;
+            }
+            .baner__title {
+                font-size: 30px;
+                line-height: 37px;
+            }
         }
         
         @media screen and (min-width: 451px) and (max-width: 767px) {
@@ -364,7 +374,6 @@
             .work-dreamshare__list,
             .flex__list {
                 margin: 0 -10px;
-                padding: 0 -20px;
             }
             .flex__item.w1-3,
             .work-dreamshare__item.w1-3 {
@@ -393,13 +402,14 @@
         @media screen and (max-width:450px) {
             .flex__item {
                 width: 100%;
+                min-height: 120px;
             }
             .flex__img-size {
                 min-height: 120px;
             }
             .partners__itm {
                 width: 100%;
-                margin: 20px auto;
+                margin: 0px auto;
             }
             .partners__subtitle {
                 max-width: 100%;
@@ -407,7 +417,9 @@
         }
         
         .title {
-            padding: 30px;
+            padding-top: 89px;
+            padding-bottom: 35px;
+            // padding: 30px;
             font-size: 26px;
             line-height: 32px;
             text-align: center;
@@ -417,6 +429,8 @@
         @media screen and (max-width: 450px) {
             .title {
                 font-size: 22px;
+                padding-top: 27px;
+                padding-bottom: 15px;
             }
         }
         
@@ -429,7 +443,8 @@
         .section-activities__subtitle {
             // font-family: 'Roboto', sans-serif;
             font-family: "Robotothin";
-            padding: 23px;
+            padding-top: 8px;
+            padding-bottom: 25px;
             font-size: 18px;
             line-height: 14px;
             text-align: center;
@@ -465,7 +480,7 @@
         }
         
         .partners__button {
-            margin-top: 20px;
+            margin-top: 36px;
             width: 180px;
             min-height: 40px;
             color: #FF4E50;
@@ -489,6 +504,11 @@
         
         .form {
             display: flex;
+        }
+        
+        .section-activities {
+            padding-top: 25px;
+            padding-bottom: 100px;
         }
         
         @media screen and (min-width: 451px) and (max-width: 767px) {
@@ -517,10 +537,14 @@
                 margin: 10px auto;
                 max-width: 100%;
             }
-        }
-        
-        .section-activities {
-            padding-bottom: 100px;
+            .section-activities {
+                padding-top: 0px;
+                padding-bottom: 40px;
+            }
+            .section-activities__subtitle {
+                padding-top: 8px;
+                padding-bottom: 0px;
+            }
         }
         
         .footer {
@@ -542,7 +566,7 @@
             &__navigation {
                 font-size: 14px;
                 color: #444444;
-                // padding: 0 2px;
+                padding: 0 2px;
             }
             &__design {
                 padding-bottom: 10px;
