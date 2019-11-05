@@ -68,7 +68,7 @@
                 // height: 100px;
             }
             &__logo-for-PK {
-                padding: 20px;
+                padding: 20px 0;
                 align-items: center;
                 text-decoration: none;
                 font-size: 20px;
@@ -108,7 +108,7 @@
             }
         }
         
-        @media screen and (max-width:450px) {
+        @media screen and (max-width:600px) {
             .header {
                 &__logo {
                     padding: 0;
@@ -313,25 +313,25 @@
             &__text {
                 position: relative;
                 z-index: 2;
-                padding: 10px 10px;
+                padding: 10px 25px;
                 max-width: 100%;
             }
             &__title {
                 font-size: 24px;
                 line-height: 26px;
                 color: $font-color;
-                padding: 10px 10px;
+                padding: 10px 0;
             }
             &__subtext {
                 font-family: "Robotothin";
                 // font-family: 'Roboto', sans-serif;
-                padding: 10px 10px;
+                padding: 10px 0px;
                 font-size: 14px;
                 line-height: 14px;
                 color: #E3E3E3;
             }
             &__cl {
-                padding: 10px 10px;
+                padding: 10px 0px;
             }
             &__step {
                 font-family: "montserrat-400-normal";
@@ -341,14 +341,14 @@
                 background: #FF4E50;
                 border-radius: 40px;
                 text-align: center;
-                font-size: 15px;
+                font-size: 10px;
                 text-transform: uppercase;
                 letter-spacing: 2px;
                 color: $font-color;
             }
         }
         
-        @media screen and (max-width: 450px) {
+        @media screen and (max-width: 600px) {
             .work-dreamshare__text {
                 line-height: 20px;
             }
@@ -364,13 +364,13 @@
             }
         }
         
-        @media screen and (min-width: 451px) and (max-width: 767px) {
+        @media screen and (min-width: 601px) and (max-width: 767px) {
             .work-dreamshare__text {
                 line-height: 20px;
             }
         }
         
-        @media screen and (min-width:451px) {
+        @media screen and (min-width:601px) {
             .work-dreamshare__list,
             .flex__list {
                 margin: 0 -10px;
@@ -390,7 +390,7 @@
             }
         }
         
-        @media screen and (min-width: 451px) and (max-width: 767px) {
+        @media screen and (min-width: 601px) and (max-width: 767px) {
             .partners__itm {
                 width: 50%;
             }
@@ -399,10 +399,46 @@
             }
         }
         
-        @media screen and (max-width:450px) {
+        @media screen and ( min-width: 401px) and (max-width:600px) {
+            .flex__item {
+                width: 100%;
+                min-height: 240px;
+            }
+            .flex__list {
+                margin: 0 -10px;
+            }
+            .flex__img-size {
+                min-height: 240px;
+            }
+            .partners__itm {
+                width: 100%;
+                margin: 0px auto;
+            }
+            .partners__subtitle {
+                max-width: 100%;
+            }
+        }
+        
+        @media screen and ( min-width: 301px) and (max-width:400px) {
+            .flex__item {
+                width: 100%;
+                min-height: 180px;
+            }
+            .flex__list {
+                margin: 0 -10px;
+            }
+            .flex__img-size {
+                min-height: 180px;
+            }
+        }
+        
+        @media screen and (max-width:300px) {
             .flex__item {
                 width: 100%;
                 min-height: 120px;
+            }
+            .flex__list {
+                margin: 0 -10px;
             }
             .flex__img-size {
                 min-height: 120px;
@@ -426,7 +462,7 @@
             color: #444444;
         }
         
-        @media screen and (max-width: 450px) {
+        @media screen and (max-width: 600px) {
             .title {
                 font-size: 22px;
                 padding-top: 27px;
@@ -434,7 +470,7 @@
             }
         }
         
-        @media screen and (min-width: 451px) and (max-width: 767px) {
+        @media screen and (min-width: 601px) and (max-width: 767px) {
             .title {
                 font-size: 22px;
             }
@@ -452,7 +488,7 @@
         }
         
         .input {
-            width: 299px;
+            width: 300px;
             height: 40px;
             padding-left: 20px;
         }
@@ -498,7 +534,7 @@
         .section-activities__button {
             margin: 0 10px;
             padding: 5px;
-            width: 172.12px;
+            width: 172px;
             min-height: 40px;
         }
         
@@ -511,7 +547,7 @@
             padding-bottom: 100px;
         }
         
-        @media screen and (min-width: 451px) and (max-width: 767px) {
+        @media screen and (min-width: 601px) and (max-width: 767px) {
             .form {
                 display: flex;
                 justify-content: center;
@@ -525,7 +561,7 @@
             }
         }
         
-        @media screen and (max-width: 450px) {
+        @media screen and (max-width: 600px) {
             .form {
                 display: flex;
                 flex-direction: column;
@@ -606,7 +642,7 @@
             margin-bottom: 30px;
         }
         
-        @media screen and (max-width: 450px) {
+        @media screen and (max-width: 600px) {
             .footer {
                 &__wrap {
                     display: block;
